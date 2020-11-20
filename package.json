@@ -1,7 +1,7 @@
 {
   "name": "corex",
   "version": "1.0.0",
-  "description": "Минималистичный фреймворк для верстки веб-сайтов",
+  "description": "Минималистичный, легкий и простой фреймворк для верстки небольших веб-сайтов (и не только).",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,5 +24,9 @@
   "bugs": {
     "url": "https://github.com/o1310/CoreX/issues"
   },
-  "homepage": "https://github.com/o1310/CoreX#readme"
+  "homepage": "https://github.com/o1310/CoreX#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "sass": "^1.29.0"
+  }
 }

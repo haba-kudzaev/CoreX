@@ -1,0 +1,28 @@
+{
+  "name": "corex",
+  "version": "1.0.0",
+  "description": "Минималистичный фреймворк для верстки веб-сайтов",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/o1310/CoreX.git"
+  },
+  "keywords": [
+    "o1310",
+    "rx1310",
+    "CoreX",
+    "html",
+    "css",
+    "sass",
+    "ui"
+  ],
+  "author": "rx1310 (o1310)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/o1310/CoreX/issues"
+  },
+  "homepage": "https://github.com/o1310/CoreX#readme"
+}

@@ -17,12 +17,9 @@
   @include crxBorderRadius();
   @include crxTransition($transition);
 
-  &:hover {
-    background-color: fade-out($color-accentPrimary, .5);
-  }
+  &:hover { background-color: fade-out($color-accentPrimary, .5); }
+  &:active { background-color: $color-accentPrimary; }
 
-  &:active {
-    background-color: $color-accentPrimary;
-  }
+  &[crx-button="borderless"] { border: none; }
 
 }

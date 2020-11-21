@@ -37,3 +37,15 @@ a {
   &:active { color: $color-active; }
 
 }
+
+img {
+
+  overflow: none;
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
+
+  &[crx-img="round"] { @include crxBorderRadius(100%); }
+  &[crx-img="rounded"] { @include crxBorderRadius(); }
+
+}

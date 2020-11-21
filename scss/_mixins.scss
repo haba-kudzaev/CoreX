@@ -1,0 +1,20 @@
+// ! rx1310 <rx1310@inbox.ru> | Copyright (c) o1310, 2020 | MIT License
+
+@mixin crxBorderRadius($borderRadius: $default-borderRadius) {
+  -webkit-border-radius: $borderRadius;
+     -moz-border-radius: $borderRadius;
+          border-radius: $borderRadius;
+}
+
+@mixin crxBoxShadow($boxShadow) {
+  -webkit-box-shadow: $boxShadow;
+     -moz-box-shadow: $boxShadow;
+          box-shadow: $boxShadow;
+}
+
+@mixin crxTransition($transition) {
+  -webkit-transition: $transition;
+     -moz-transition: $transition;
+       -o-transition: $transition;
+          transition: $transition;
+}

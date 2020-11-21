@@ -5,6 +5,7 @@
 
 // ? CoreX
 @import 'var';
+@import 'mixins';
 @import 'reset';
 @import 'base';
 
@@ -19,3 +20,4 @@
 
 // ? Components
 @import 'component/alert';
+@import 'component/button';

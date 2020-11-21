@@ -1,8 +1,8 @@
 // ! rx1310 <rx1310@inbox.ru> | Copyright (c) o1310, 2020 | MIT License
 
 body {
-  background-color: #000000;
-  color: #ffffff;
+  background-color: $color-surfacePrimary;
+  color: $color-fontPrimary;
   font-family: "Open Sans", sans-serif;
   margin: 0;
   line-height: 1.15;
@@ -15,7 +15,7 @@ body {
 
 hr {
   border: 0;
-  border-top: 1px solid gray;
+  border-top: 1px solid $color_divider;
   box-sizing: content-box;
   height: 0;
   overflow: visible;

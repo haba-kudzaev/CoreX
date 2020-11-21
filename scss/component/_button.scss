@@ -11,14 +11,14 @@
   min-width: 64px;
   text-overflow: ellipsis;
   text-transform: uppercase;
-  font-size: 80%;
+  letter-spacing: .1em;
+  font-size: 70%;
   
   @include crxBorderRadius();
   @include crxTransition($transition);
 
   &:hover {
     background-color: fade-out($color-accentPrimary, .5);
-    border-color: $color-accentPrimary;
   }
 
   &:active {

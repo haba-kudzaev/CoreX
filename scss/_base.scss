@@ -1,0 +1,22 @@
+// ! rx1310 <rx1310@inbox.ru> | Copyright (c) o1310, 2020 | MIT License
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  line-height: 1.15;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-text-size-adjust: 100%;
+     -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+          text-size-adjust: 100%; // https://clck.ru/NNamf
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid gray;
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}

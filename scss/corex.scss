@@ -6,6 +6,7 @@
 // ? CoreX
 @import 'var';
 @import 'reset';
+@import 'base';
 
 // ? Twitter Bootstrap Grid (https://github.com/rx1310/workspace/tree/master/BootstrapGrid/SASS)
 @import '_grid/functions';
@@ -15,3 +16,6 @@
 @import '_grid/mixins/grid';
 @import '_grid/grid';
 @import '_grid/utilities/flex';
+
+// ? Components
+@import 'component/alert';

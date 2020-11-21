@@ -2,9 +2,10 @@
 
 .crx-button {
 
-  $transition: background-color .30s, border-color .30s;
+  $transition: background-color .30s, border-color .30s, color .30s;
 
   border: 2px solid $color-accentPrimary;
+  color: $color-accentPrimary;
   box-sizing: border-box;
   position: relative;
   padding: .4em .7em;
@@ -18,7 +19,10 @@
   @include crxTransition($transition);
 
   &:hover { background-color: fade-out($color-accentPrimary, .5); }
-  &:active { background-color: $color-accentPrimary; }
+  &:active {
+    background-color: $color-accentPrimary;
+    color: $color-fontPrimary;
+  }
 
   &[crx-button="borderless"] { border: none; }
 

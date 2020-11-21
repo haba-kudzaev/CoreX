@@ -47,6 +47,10 @@
     padding: 1.2em;
   }
 
+  &[crx-card="centered"] {
+    text-align: center;
+  }
+
   &:hover &-image {
     z-index: -1;
     @include crxTransform(scale(1.1));

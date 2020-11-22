@@ -1,0 +1,33 @@
+// ! rx1310 <rx1310@inbox.ru> | Copyright (c) o1310, 2020 | MIT License
+
+.crx-breadcrumbs {
+
+  background-color: $color-surfaceBreadcrumbs;
+  padding: 1em;
+  font-size: small;
+  list-style: none;
+  overflow-y: hidden;
+  overflow-x: auto;
+  word-wrap: break-word;
+  white-space: nowrap;
+
+  @include crxBorderRadius();
+
+  li { display: inline-block; }
+
+  li + li:before {
+    content: "›";
+    padding: 0 .6em;
+  }
+
+  &::-webkit-scrollbar-track {
+    @include crxBorderRadius();
+    background: $color-surfaceBreadcrumbs;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $scrollbar-thumb;
+    border: 5px solid $color-surfaceBreadcrumbs;
+  }
+
+}

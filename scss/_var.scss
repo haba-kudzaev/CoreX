@@ -12,7 +12,12 @@ $color-fontSecondary: #6b6e70;
 
 $color-surfacePrimary: #222629;
 $color-surfaceList: #30363a;
+$color-surfaceBreadcrumbs: $color-surfaceList;
 
 $color_divider: #3c4147;
+
+$scrollbar: #222629 !default;
+$scrollbar-thumb: $color-accentPrimary !default;
+$scrollbar-track: $scrollbar !default;
 
 $default-borderRadius: 0.5em !default;

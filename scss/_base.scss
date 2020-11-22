@@ -6,11 +6,25 @@ body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
   line-height: 1.15;
+  scrollbar-width: thin;
+  scrollbar-color: $scrollbar-thumb $scrollbar;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-text-size-adjust: 100%;
      -moz-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
           text-size-adjust: 100%; // https://clck.ru/NNamf
+}
+
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background: $scrollbar-track; }
+
+::-webkit-scrollbar-thumb {
+
+  background-color: $scrollbar-thumb;
+  border: 4px solid $scrollbar;
+
+  @include crxBorderRadius();
+
 }
 
 hr {

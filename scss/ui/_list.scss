@@ -12,7 +12,7 @@ ul.crx-list {
 
     $transition: background-color .30s;
 
-    padding: .8em 1.2em;
+    padding: 1em;
     cursor: pointer;
 
     @include crxBorderRadius();
@@ -20,6 +20,14 @@ ul.crx-list {
 
     &:hover { background-color: fade-out($color-accentPrimary, .5); }
     &:active { background-color: $color-accentPrimary; }
+
+    p {
+      font-size: smaller;
+      margin-bottom: 0;
+      margin-top: .4em;
+      -moz-opacity: 0.6;
+           opacity: 0.6;
+    }
 
   }
 }

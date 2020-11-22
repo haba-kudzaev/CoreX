@@ -1,0 +1,24 @@
+// ! rx1310 <rx1310@inbox.ru> | Copyright (c) o1310, 2020 | MIT License
+
+ul.crx-list {
+
+  background-color: $color-surfaceList;
+  list-style-type: none;
+  padding: 0;
+
+  @include crxBorderRadius();
+
+  li {
+
+    $transition: background-color .30s;
+
+    padding: .8em 1.2em;
+
+    @include crxBorderRadius();
+    @include crxTransition($transition);
+
+    &:hover { background-color: fade-out($color-accentPrimary, .5); }
+    &:active { background-color: $color-accentPrimary; }
+    
+  }
+}

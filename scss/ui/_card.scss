@@ -6,6 +6,11 @@
 
   position: relative;
   overflow: hidden;
+  margin: .5em 0;
+
+  @media (min-width: 768px) {
+    margin: 0;
+  }
 
   @include crxBorderRadius();
   @include crxTransition($transition);

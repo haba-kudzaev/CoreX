@@ -8,89 +8,76 @@
     <title>CoreX</title>
   </head>
   <body>
+
     <div class="container">
 
       <div class="row">
+
+        <!-- Хлебные крошки -->
         <div class="col-12">
           <ul class="crx-breadcrumbs">
-            <li><a>Home</a></li>
-            <li><a>Projects</a></li>
-            <li><a>Web</a></li>
-            <li>Hello</li>
-            <li crx-breadcrumbs="current">CoreX</li>
+            <li><a href="https://rx1310.github.io/corex-preview/">Домашняя страница</a></li>
+            <li>CoreX</li>
           </ul>
         </div>
+
+        <!-- Карточки -->
         <div class="col-12">
-          <table crx-table="hover">
-            <caption>Caption</caption>
-            <thead>
-              <tr>
-                <th>One</th>
-                <th>Two</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>One</td>
-                <td>Two</td>
-              </tr>
-              <tr>
-                <td>One</td>
-                <td>Two</td>
-              </tr>
-              <tr>
-                <td>One</td>
-                <td>Two</td>
-              </tr>
-            </tbody>
-          </table>
+          <h2>Карточки</h2>
         </div>
-        <div class="col-md-4">
-          <h2>Hello world</h2>
-          <p>
-            <button class="crx-button">Simple button</button>
-            <a href="http://"><button class="crx-button">Link button</button></a>
-            <button class="crx-button" crx-button="borderless">Borderless button</button>
-            <button class="crx-button crx-button-block">Block button</button>
-          </p>
-          <ul class="crx-list">
-            <li>
-              List item
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis minima odit magnam reprehenderit quod, praesentium quasi ratione, corporis nihil excepturi blanditiis vero doloribus rerum totam sunt. Cupiditate hic in libero.</p>
-            </li>
-            <li>List item</li>
-            <li>List item</li>
-            <li>
-              List item
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis minima odit magnam reprehenderit quod, praesentium quasi ratione, corporis nihil excepturi blanditiis vero doloribus rerum totam sunt. Cupiditate hic in libero.</p>
-            </li>
-            <li>List item</li>
-            <li>List item</li>
-            <li>List item</li>
-          </ul>
-          <p><a href="http://">Link</a></p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem magnam doloremque illum cupiditate, nostrum veniam fuga suscipit adipisci vitae sunt nam nemo voluptatem provident totam, minus aliquam placeat neque ad.</p>
-          <hr>
-          <p class="crx-alert">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, a distinctio necessitatibus, explicabo, quidem dolore provident aspernatur repellendus doloremque est ex corrupti nihil tempora assumenda non possimus. Ratione, beatae perspiciatis.</p>
-        </div>
-        <div class="col-md-4">
-          <h2>Hello world</h2>
-          <img src="image.jpg" alt="" crx-img="rounded">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem magnam doloremque illum cupiditate, nostrum veniam fuga suscipit adipisci vitae sunt nam nemo voluptatem provident totam, minus aliquam placeat neque ad.</p>
-          <div class="crx-card" crx-card="centered">
-            <a href="https://google.com" class="crx-card-link"></a>
-            <img class="crx-card-image" src="image.jpg" alt="">
+        <div class="col-md-6">
+          <p>Центрирование текста по левому краю:</p>
+          <div class="crx-card">
+            <a class="crx-card-link" href="https://github.com/rx1310"></a>
+            <img class="crx-card-image" src="image.jpg" alt="Test image">
             <div class="crx-card-body">
-              <h2>Card title</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <h2>Заголовок</h2>
+              <p>Прежде всего начало повседневной работы по формированию позиции способствует повышению качества поставленных обществом и правительством задач.</p>
             </div>
           </div>
         </div>
-        <div class="col-md-4">
-          <h2>Hello world</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem magnam doloremque illum cupiditate, nostrum veniam fuga suscipit adipisci vitae sunt nam nemo voluptatem provident totam, minus aliquam placeat neque ad.</p>
+        <div class="col-md-6">
+          <p>Центрирование текста по центру:</p>
+          <div class="crx-card" crx-card="centered">
+            <a class="crx-card-link" href="https://github.com/rx1310"></a>
+            <img class="crx-card-image" src="image.jpg" alt="Test image">
+            <div class="crx-card-body">
+              <h2>Заголовок</h2>
+              <p>Разнообразный и богатый опыт начало повседневной работы по формированию позиции обеспечивает широкому кругу специалистов систему массового участия.</p>
+            </div>
+          </div>
         </div>
+
+        <!-- Кнопки -->
+        <div class="col-md-6">
+          <h2>Кнопки</h2>
+          <button class="crx-button">Обычная кнопка</button>
+          <button class="crx-button" crx-button="borderless">Кнопка без контура</button><br><br>
+          <button class="crx-button crx-button-block">Кнопка-блок</button><br><br>
+          <button class="crx-button crx-button-block" crx-button="borderless">Кнопка-блок</button>
+        </div>
+
+        <!-- Список -->
+        <div class="col-md-6">
+          <h2>Список</h2>
+          <ul class="crx-list">
+            <li>
+              Microsoft
+              <p>MS Windows, Visual Studio (VSCode), Microsoft OneNote, PowerPoint, Microsoft Word, etc.</p>
+            </li>
+            <li>Google</li>
+            <li>
+              Apple
+              <p>iOS, iPhone, iPad, iMac, MacBook, macOS, AppStore, etc.</p>
+            </li>
+            <li>IBM</li>
+            <li>Amazon</li>
+          </ul>
+        </div>
+
       </div>
+
     </div>
+
   </body>
 </html>

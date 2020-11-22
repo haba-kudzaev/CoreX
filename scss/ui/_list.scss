@@ -21,6 +21,10 @@ ul.crx-list {
     &:hover { background-color: fade-out($color-accentPrimary, .5); }
     &:active { background-color: $color-accentPrimary; }
 
+    &:not(:last-child) {
+      border-bottom: 1px solid $color-divider;
+    }
+
     p {
       font-size: smaller;
       margin-bottom: 0;

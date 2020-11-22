@@ -13,12 +13,13 @@ ul.crx-list {
     $transition: background-color .30s;
 
     padding: .8em 1.2em;
+    cursor: pointer;
 
     @include crxBorderRadius();
     @include crxTransition($transition);
 
     &:hover { background-color: fade-out($color-accentPrimary, .5); }
     &:active { background-color: $color-accentPrimary; }
-    
+
   }
 }

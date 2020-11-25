@@ -61,3 +61,13 @@ img {
   &[crx-img="rounded"] { @include crxBorderRadius(); }
 
 }
+
+header {
+
+  text-align: center;
+  padding: 2em;
+
+  p { color: darken($color-font, 20%); }
+  &[crx-header="divider"] { border-bottom: 2px solid $color-divider; }
+
+}

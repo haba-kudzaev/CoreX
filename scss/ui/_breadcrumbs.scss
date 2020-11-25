@@ -17,7 +17,14 @@
   top: 0;
   z-index: 999;
 
-  @include crxBoxShadow(0 .15em 1em -0.2em rgba(0 0 0 / .6));
+  &[crx-breadcrumbs="bottom"] {
+    bottom: 0;
+    margin-top: 1em;
+    margin-bottom: -1.4em;
+
+  }
+
+  @include crxBoxShadow(0 .15em 1em 0.2em rgba(0 0 0 / .6));
 
   li { display: inline-block; }
 
@@ -26,9 +33,7 @@
     padding: 0 .6em;
   }
 
-  &::-webkit-scrollbar-track {
-    background: lighten($color-surface, 10%);
-  }
+  &::-webkit-scrollbar-track { background: lighten($color-surface, 10%); }
 
   &::-webkit-scrollbar-thumb {
     background-color: $scrollbar-thumb;

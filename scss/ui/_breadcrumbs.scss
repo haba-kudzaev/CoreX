@@ -12,6 +12,9 @@
   word-wrap: break-word;
   white-space: nowrap;
   text-align: center;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
   z-index: 999;
 
   @include crxBoxShadow(0 .15em 1em -0.2em rgba(0 0 0 / .6));

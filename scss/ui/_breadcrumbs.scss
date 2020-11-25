@@ -4,14 +4,17 @@
 
   background-color: lighten($color-surface, 10%);
   padding: 1em;
+  margin-top: 0;
   font-size: small;
   list-style: none;
   overflow-y: hidden;
   overflow-x: auto;
   word-wrap: break-word;
   white-space: nowrap;
+  text-align: center;
+  z-index: 999;
 
-  @include crxBorderRadius();
+  @include crxBoxShadow(0 .15em 1em -0.2em rgba(0 0 0 / .6));
 
   li { display: inline-block; }
 
@@ -21,7 +24,6 @@
   }
 
   &::-webkit-scrollbar-track {
-    @include crxBorderRadius();
     background: lighten($color-surface, 10%);
   }
 

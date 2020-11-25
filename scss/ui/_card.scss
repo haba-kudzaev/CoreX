@@ -54,9 +54,7 @@
     width: 100%;
   }
 
-  &[crx-card="centered"] {
-    text-align: center;
-  }
+  &[crx-card*="centered"] { text-align: center; }
 
   &:hover &-image {
     z-index: -1;

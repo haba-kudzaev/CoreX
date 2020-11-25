@@ -23,7 +23,7 @@ ul.crx-list {
     &:hover { background-color: darken($color-accent, 80%); }
     &:active { 
       background-color: $color-accent;
-      color: invert($color-font)
+      color: invert($color-font);
     }
 
     &:not(:last-child) {

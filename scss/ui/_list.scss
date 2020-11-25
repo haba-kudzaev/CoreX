@@ -2,7 +2,7 @@
 
 ul.crx-list {
 
-  background-color: $color-surfaceList;
+  background-color: lighten($color-surface, 5%);
   list-style-type: none;
   padding: 0;
 
@@ -10,7 +10,9 @@ ul.crx-list {
 
   li {
 
-    $transition: background-color .30s;
+    $transition:
+      background-color .30s,
+      color .30s;
 
     padding: 1em;
     cursor: pointer;
@@ -18,8 +20,11 @@ ul.crx-list {
     @include crxBorderRadius();
     @include crxTransition($transition);
 
-    &:hover { background-color: fade-out($color-accentPrimary, .5); }
-    &:active { background-color: $color-accentPrimary; }
+    &:hover { background-color: darken($color-accent, 80%); }
+    &:active { 
+      background-color: $color-accent;
+      color: invert($color-font)
+    }
 
     &:not(:last-child) {
       border-bottom: 1px solid $color-divider;
@@ -29,8 +34,8 @@ ul.crx-list {
       font-size: smaller;
       margin-bottom: 0;
       margin-top: .4em;
-      -moz-opacity: 0.6;
-           opacity: 0.6;
+      -moz-opacity: 0.8;
+           opacity: 0.8;
     }
 
   }

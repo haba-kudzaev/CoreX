@@ -1,23 +1,19 @@
 // ! rx1310 <rx1310@inbox.ru> | Copyright (c) o1310, 2020 | MIT License
 
-$COLOR_RED: #e74c3c !default;
-$COLOR_GREEN: #86c232 !default;
-$COLOR_BLUE: #3498db !default;
-$COLOR_YELLOW: #f1c40f !default;
+$COLOR_RED: #E53935 !default;
+$COLOR_GREEN: #43A047 !default;
+$COLOR_BLUE: #1E88E5 !default;
+$COLOR_YELLOW: #E65100 !default;
 
-$color-accentPrimary: #86c232;
-$color-accentSecondary: #61892f;
-$color-fontPrimary: #dfe5e9;
-$color-fontSecondary: #6b6e70;
+$color-accent: #fff;
+$color-font: #fff;
 
-$color-surfacePrimary: #222629;
-$color-surfaceList: #30363a;
-$color-surfaceBreadcrumbs: $color-surfaceList;
+$color-surface: #121212;
 
-$color_divider: #3c4147;
+$color_divider: lighten($color-surface, 10%);
 
-$scrollbar: #222629 !default;
-$scrollbar-thumb: $color-accentPrimary !default;
+$scrollbar: $color-surface !default;
+$scrollbar-thumb: $color-accent !default;
 $scrollbar-track: $scrollbar !default;
 
 $default-borderRadius: 0.5em !default;

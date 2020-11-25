@@ -2,7 +2,7 @@
 
 .crx-breadcrumbs {
 
-  background-color: $color-surfaceBreadcrumbs;
+  background-color: lighten($color-surface, 10%);
   padding: 1em;
   font-size: small;
   list-style: none;
@@ -22,12 +22,12 @@
 
   &::-webkit-scrollbar-track {
     @include crxBorderRadius();
-    background: $color-surfaceBreadcrumbs;
+    background: lighten($color-surface, 10%);
   }
 
   &::-webkit-scrollbar-thumb {
     background-color: $scrollbar-thumb;
-    border: 5px solid $color-surfaceBreadcrumbs;
+    border: 5px solid lighten($color-surface, 10%);
   }
 
 }

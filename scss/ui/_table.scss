@@ -24,7 +24,7 @@ table {
   }
 
   caption {
-    color: $color-fontSecondary;
+    color: darken($color-font, 50%);
     caption-side: bottom;
     padding: .75em 0;
     margin: 0 .75em;
@@ -33,10 +33,15 @@ table {
 
   &[crx-table="hover"] tbody tr {
 
-    $transition: background-color .30s;
+    $transition:
+      background-color .30s,
+      color .30s;
 
-    &:hover { background-color: fade-out($color-accentPrimary, .8); }
-    &:active { background-color: $color-accentPrimary; }
+    &:hover { background-color: fade-out($color-accent, .8); }
+    &:active { 
+      background-color: $color-accent;
+      color: invert($color-font)
+    }
 
     @include crxTransition($transition);
     

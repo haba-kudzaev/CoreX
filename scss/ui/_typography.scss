@@ -20,6 +20,7 @@ h6 { font-size: 1rem; }
 .crx-text--lowercase { text-transform: lowercase; }
 .crx-text--uppercase { text-transform: uppercase; }
 .crx-text--capitalize { text-transform: capitalize; }
+.crx-text--muted { color: fade-out($color-font, .5);}
 
 // from: https://developer.microsoft.com/en-us/fluentui#/styles/web/typography
 .crx-text-size68 { font-size: 68px; }

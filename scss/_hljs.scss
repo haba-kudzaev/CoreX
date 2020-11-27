@@ -14,6 +14,16 @@ pre.hljs {
    -ms-tab-size: $tab-size;
     -o-tab-size: $tab-size;
        tab-size: $tab-size;
+
+  &::-webkit-scrollbar-track {
+    @include crxBorderRadius();
+    background: $color-surface;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $scrollbar-thumb;
+    border: 5px solid $color-surface;
+  }
        
 }
 

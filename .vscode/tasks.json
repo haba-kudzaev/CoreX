@@ -19,6 +19,15 @@
 				"kind": "build",
 				"isDefault": true
 			}
+		},{
+			"label": "corex-build-r",
+			"type": "shell",
+			"command": "sass scss/corex.scss build/release/css/corex.css",
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
 		}
 	]
 }

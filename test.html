@@ -55,12 +55,49 @@
         </div>
         <div class="col-md-4">
           <h2>Hello world</h2>
-          <p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At deleniti eum non adipisci eligendi necessitatibus fugit unde optio, atque sequi dicta, debitis reprehenderit id omnis reiciendis doloremque voluptates natus voluptatum.</p>
+          <p hidden>
             <button class="crx-button">Simple button</button>
             <a href="http://"><button class="crx-button">Link button</button></a>
             <button class="crx-button" crx-button="borderless">Borderless button</button>
             <button class="crx-button crx-button-block">Block button</button>
           </p>
+          <pre class="hljs"><code>
+pre.hljs {
+
+  color: #d1d1d1;
+  border: 2px solid $color-divider;
+  display: block;
+  overflow-y: hidden;
+  white-space: pre;
+  padding: 0 1em;
+            
+  @include crxBorderRadius();
+            
+  -moz-tab-size: 0;
+  -ms-tab-size: 0;
+  -o-tab-size: 0;
+  tab-size: 0;
+  
+}
+          </code></pre>
+          <table>
+            <caption>Caption</caption>
+            <thead>
+              <tr>
+                <th>Версия модификации</th>
+                <th>Статус</th>
+                <th>APK</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>OptiNova 6.2.12.1</td>
+                <td>Beta</td>
+                <td><a href="">Github releases</a></td>
+              </tr>
+            </tbody>
+          </table>
           <ul class="crx-list">
             <li>
               List item
@@ -120,5 +157,7 @@
     <footer crx-footer="centered">
       <p>Hello world</p>
     </footer>
+    <script src="js/highlight.pack.js"></script>
+	  <script>hljs.initHighlightingOnLoad();</script>
   </body>
 </html>

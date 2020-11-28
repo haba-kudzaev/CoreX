@@ -31,7 +31,7 @@ table {
     text-align: left;
   }
 
-  &[crx-table="hover"] tbody tr {
+  &[crx-table*="hover"] tbody tr {
 
     $transition:
       background-color .30s,
@@ -44,6 +44,18 @@ table {
     }
 
     @include crxTransition($transition);
+    
+  }
+
+  &[crx-table*="scroll"] {
+    overflow-y: hidden;
+    overflow-x: auto;
+    white-space: nowrap;
+    display: inline-block;
+
+    &::-webkit-scrollbar-track {
+      @include crxBorderRadius();
+    }
     
   }
 

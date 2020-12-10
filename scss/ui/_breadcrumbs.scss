@@ -21,10 +21,9 @@
     bottom: 0;
     margin-top: 1em;
     margin-bottom: -1.4em;
-
   }
 
-  @include crxBoxShadow(0 .15em 1em 0.2em rgba(0 0 0 / .6));
+  @include crxBoxShadow(0 .15em 1em 0.2em rgba(0 0 0 / .2));
 
   li { display: inline-block; }
 

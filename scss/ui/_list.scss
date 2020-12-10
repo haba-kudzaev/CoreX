@@ -20,7 +20,7 @@ ul.crx-list {
     @include crxBorderRadius();
     @include crxTransition($transition);
 
-    &:hover { background-color: darken($color-accent, 80%); }
+    &:hover { background-color: fade-out($color-accent, .8); }
     &:active { 
       background-color: $color-accent;
       border-color: $color-accent;

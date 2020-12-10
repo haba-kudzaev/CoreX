@@ -35,9 +35,20 @@ h6 { font-size: 1rem; }
 .crx-text-size12 { font-size: 12px; }
 .crx-text-size10 { font-size: 10px; }
 
+// Code and Keyboard
+
 code {
 
   color: $COLOR-GREEN;
 
 }
 
+kbd {
+
+  background-color: lighten($color-surface, 20%);
+  padding: .2em .4em;
+  font-size: 88%;
+
+  @include crxBorderRadius(4px);
+  
+}

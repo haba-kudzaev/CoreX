@@ -2,7 +2,8 @@
 
 .crx-breadcrumbs {
 
-  background-color: lighten($color-surface, 10%);
+  background-color: $color-surface;
+  border-bottom: 2px solid $color-divider;
   padding: 1em;
   margin-top: 0;
   font-size: small;
@@ -19,11 +20,13 @@
 
   &[crx-breadcrumbs="bottom"] {
     bottom: 0;
+    border-bottom: none;
+    border-top: 2px solid $color-divider;
     margin-top: 1em;
-    margin-bottom: -1.4em;
+    margin-bottom: -1.2em;
   }
 
-  @include crxBoxShadow(0 .15em 1em 0.2em rgba(0 0 0 / .2));
+  //@include crxBoxShadow(0 .15em 1em 0.2em rgba(0 0 0 / .2));
 
   li { display: inline-block; }
 

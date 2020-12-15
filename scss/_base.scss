@@ -61,10 +61,6 @@ img {
   max-height: 100%;
   vertical-align: middle;
 
-  &:not(:last-child) {
-    margin-bottom: .5em;
-  }
-
   &[crx-img="round"] { @include crxBorderRadius(100%); }
   &[crx-img="rounded"] { @include crxBorderRadius(); }
 

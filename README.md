@@ -20,8 +20,7 @@ CoreX (libCoreX, crx, etc..) - простая, легкая и минимали�
 ```
 MIT License
 
-Copyright (c) 2020 o1310
-Copyright (c) 2019 rx1310
+Copyright (c) 2020 Haba Kudzaev (@rx1310)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

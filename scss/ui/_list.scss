@@ -12,12 +12,12 @@ ul.crx-list {
 
     $transition:
       background-color .30s,
+      border-color .30s,
       color .30s;
 
     padding: 1em;
     cursor: pointer;
 
-    @include crxBorderRadius();
     @include crxTransition($transition);
 
     &:hover { background-color: fade-out($color-accent, .8); }
@@ -31,6 +31,25 @@ ul.crx-list {
       border-bottom: 1px solid $color-divider;
     }
 
+    &:last-child {
+      border-bottom-left-radius: $default-borderRadius;
+      border-bottom-right-radius: $default-borderRadius;
+    }
+    &:first-child {
+      border-top-left-radius: $default-borderRadius;
+      border-top-right-radius: $default-borderRadius;
+    }
+
+    &[crx-list="title"] {
+      
+      border: none;
+      color: $color-accent;
+      cursor: not-allowed;
+      pointer-events: none;
+      padding-bottom: .5em;
+      
+    }
+
     p {
       font-size: smaller;
       margin-bottom: 0;
@@ -40,4 +59,5 @@ ul.crx-list {
     }
     
   }
+
 }

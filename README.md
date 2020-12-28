@@ -5,7 +5,7 @@ CoreX (libCoreX, crx, etc..) - простая, легкая и минимали�
 
 ## Используемые ресурсы
 * [Twitter Bootstrap](https://github.com/twbs/bootstrap) - позаимствована сетка Bootstrap Grid
-* [VanillaCoreX](https://github.com/o1310/VanillaCoreX) - позаимствовано немного кода из прародителя CoreX
+* [VanillaCoreX](https://github.com/rx1310/VanillaCoreX) - позаимствовано немного кода из прародителя CoreX
 
 ## Авторы
 * [rx1310](https://github.com/rx1310) - создание и идея проекта
@@ -13,7 +13,7 @@ CoreX (libCoreX, crx, etc..) - простая, легкая и минимали�
 
 ## Полезные ссылки
 * [CoreX Previews](https://rx1310.github.io/corex-preview/) - страница для демо-обзора различных версий CoreX (в т.ч и VanillaCoreX)
-* [GitHub Releases](https://github.com/o1310/CoreX/releases)
+* [GitHub Releases](https://github.com/rx1310/CoreX/releases)
 
 ## Лицензия
 **CoreX** является открытым проектом / продуктом и распространяется совершенно бесплатно под MIT License.

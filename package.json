@@ -8,10 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/o1310/CoreX.git"
+    "url": "git+https://github.com/rx1310/CoreX.git"
   },
   "keywords": [
-    "o1310",
     "rx1310",
     "CoreX",
     "html",
@@ -19,12 +18,12 @@
     "sass",
     "ui"
   ],
-  "author": "rx1310 (o1310)",
+  "author": "rx1310",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/o1310/CoreX/issues"
+    "url": "https://github.com/rx1310/CoreX/issues"
   },
-  "homepage": "https://github.com/o1310/CoreX#readme",
+  "homepage": "https://github.com/rx1310/CoreX#readme",
   "devDependencies": {},
   "dependencies": {
     "sass": "^1.29.0"

@@ -21,6 +21,10 @@ h6 { font-size: 1rem; }
 .crx-text--uppercase { text-transform: uppercase; }
 .crx-text--capitalize { text-transform: capitalize; }
 .crx-text--muted { color: darken($color-font, 70%);}
+.crx-text--info { color: $COLOR-BLUE; }
+.crx-text--success { color: $COLOR-GREEN; }
+.crx-text--warning { color: $COLOR-YELLOW; }
+.crx-text--danger { color: $COLOR-RED; }
 
 // from: https://developer.microsoft.com/en-us/fluentui#/styles/web/typography
 .crx-text-size68 { font-size: 68px; }

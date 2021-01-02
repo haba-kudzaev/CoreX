@@ -43,14 +43,13 @@ a {
   
   $transition: color .30s;
 
-  color: inherit;
+  color: $color-accent;
   text-decoration: underline;
 
   @include crxTransition($transition);
 
-  &:hover,
-  &:visited { color: darken($color-font, 30%); }
-  &:active { color: darken($color-font, 50%); }
+  &:hover { color: darken($color-accent, 20%); }
+  &:active { color: darken($color-accent, 50%); }
 
 }
 

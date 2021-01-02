@@ -33,6 +33,7 @@
   li + li:before {
     content: "›";
     padding: 0 .6em;
+    color: white;
   }
 
   &::-webkit-scrollbar-track { background: lighten($color-surface, 10%); }
@@ -40,6 +41,25 @@
   &::-webkit-scrollbar-thumb {
     background-color: $scrollbar-thumb;
     border: 5px solid lighten($color-surface, 10%);
+  }
+
+  li > a {
+    text-decoration: none;
+  }
+
+  li[onclick] {
+
+    $transition: color .30s;
+
+    color: $color-accent;
+    cursor: pointer;
+
+    @include crxTransition($transition);
+
+    &:hover,
+    &:visited { color: darken($color-accent, 20%); }
+    &:active { color: darken($color-accent, 50%); }
+
   }
 
 }

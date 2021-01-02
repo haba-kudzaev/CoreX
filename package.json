@@ -1,8 +1,8 @@
 {
-  "name": "corex",
-  "version": "1.0.0",
-  "description": "Минималистичный, легкий и простой фреймворк для верстки небольших веб-сайтов (и не только).",
-  "main": "index.js",
+  "name": "devreader-corex",
+  "version": "21.0.0",
+  "description": "Минималистичный, легкий и простой фреймворк для проекта DevReader.",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,14 +11,14 @@
     "url": "git+https://github.com/rx1310/CoreX.git"
   },
   "keywords": [
-    "rx1310",
+    "DevReader",
     "CoreX",
     "html",
     "css",
     "sass",
     "ui"
   ],
-  "author": "rx1310",
+  "author": "rx1310 (DevReader)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/rx1310/CoreX/issues"

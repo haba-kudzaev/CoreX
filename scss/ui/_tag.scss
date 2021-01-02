@@ -1,0 +1,16 @@
+// ! rx1310 <rx1310@inbox.ru> | Copyright (c) DevReader, 2020 | MIT License
+
+.crx-tag {
+
+  border: 2px solid $color-divider;
+  padding: .2em .4em;
+  font-size: 50%;
+  pointer-events: none;
+  cursor: not-allowed;
+  filter: alpha(opacity=50);
+  -moz-opacity: 0.50;
+       opacity: 0.50;
+
+  @include crxBorderRadius();
+
+}

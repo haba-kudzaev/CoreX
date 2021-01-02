@@ -1,0 +1,31 @@
+// ! rx1310 <rx1310@inbox.ru> | Copyright (c) DevReader, 2021 | MIT License
+
+.dr-card_banner {
+
+  $transition:
+   background-color .30s,
+   border-color .30s,
+   color .30s;
+
+  border: 2px solid fade-out($color-accent, .8);
+  background: linear-gradient(130deg, fade-out($color-accent, .9) 0%, transparent 100%);
+  padding: 1em 1.2em 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  
+  @include crxBorderRadius();
+  @include crxTransition($transition);
+
+  h4 { margin: 0; }
+
+  &:hover {
+    background-color: fade-out($color-accent, .8);
+    border-color: fade-out($color-accent, .8);
+  }
+
+  &:active {
+    background-color: $color-accent;
+    color: invert($color-font);
+  }
+
+}

@@ -7,7 +7,7 @@
    border-color .30s, 
    color .30s;
 
-  border: 2px solid darken($color-accent, 20%);
+  border: 2px solid $color-accent;
   color: $color-font;
   box-sizing: border-box;
   position: relative;

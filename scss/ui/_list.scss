@@ -41,11 +41,13 @@ ul.crx-list {
     }
 
     &[crx-list="title"] {
+      
       border: none;
       color: $color-accent;
       cursor: not-allowed;
       pointer-events: none;
       padding-bottom: .5em;
+      
     }
 
     p {

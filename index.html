@@ -18,21 +18,28 @@
     <!-- Хлебные крошки -->
     <ul class="crx-breadcrumbs">
       <li><a href="https://rx1310.github.io/corex-preview/">Домашняя страница</a></li>
-      <li>CoreX</li>
+      <li onclick="">CoreX</li>
     </ul>
 
     <div class="container">
 
       <div class="row">
 
-        
         <div class="col-12">
-          
+          <div class="dr-card_banner" id="elem" style="display: none;">
+            <h4>Раздел мобильного приложения</h4>
+            <p>Ммм.. вы пользуетесь мобильным приложением DevReader для Android. Специально для приложения на ресурсе выделен отдельный раздел, где вы можете почитать блог разработчика приложения, поискать ответы на вопросы и многое другое.</p>
+          </div>
         </div>
+
+        <script>
+          let elem = document.getElementById('elem');
+          elem.style.display = 'block';
+        </script>
 
         <!-- Карточки -->
         <div class="col-12">
-          <h2>Карточки</h2>
+          <h2>Карточки <sup class="crx-tag">DevReader</sup></h2>
         </div>
         <div class="col-md-6">
           <p>Центрирование текста по левому краю:</p>
@@ -112,7 +119,7 @@
     <footer>
       <p>Footer - это блок в нижней части страницы. Содержит полезную, но не первостепенную информацию. В футер можно вынести: копирайт, название студии, которая разрабатывала сайт, контакты. Иногда в футере дублируются пункты меню.</p>
       <p><a href="http://t.me/rx1310_dev">Developer</a> / <a href="https://github.com/rx1310/CoreX">GitHub</a></p>
-      <p class="crx-text--muted">Copyright &copy; 2020, rx1310</p>
+      <p class="crx-text--muted">Copyright &copy; 2020, rx1310 (rx1310)</p>
     </footer>
 
   </body>

@@ -18,14 +18,10 @@
 
   h4 { margin: 0; }
 
-  &:hover {
+  &:hover,
+  &:active {
     background-color: fade-out($color-accent, .8);
     border-color: fade-out($color-accent, .8);
-  }
-
-  &:active {
-    background-color: $color-accent;
-    color: invert($color-font);
   }
 
 }

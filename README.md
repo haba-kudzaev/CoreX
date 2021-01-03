@@ -8,6 +8,7 @@ CoreX (libCoreX, crx, etc..) - простая, легкая и минимали�
 * [VanillaCoreX](https://github.com/rx1310/VanillaCoreX) - позаимствовано немного кода из прародителя CoreX
 
 ## Авторы
+* Проект [DevReader](https://github.com/devreader)
 * [rx1310](https://github.com/rx1310) - создание и идея проекта
 * [codev01](https://github.com/codev01) - помощь в разработке
 
@@ -20,7 +21,8 @@ CoreX (libCoreX, crx, etc..) - простая, легкая и минимали�
 ```
 MIT License
 
-Copyright (c) 2020 Haba Kudzaev (@rx1310)
+Copyright (c) 2020 The DevReader Project
+Copyright (c) 2020 Haba Kudzaev (rx1310)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

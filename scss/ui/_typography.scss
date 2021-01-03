@@ -20,7 +20,7 @@ h6 { font-size: 1rem; }
 .crx-text--lowercase { text-transform: lowercase; }
 .crx-text--uppercase { text-transform: uppercase; }
 .crx-text--capitalize { text-transform: capitalize; }
-.crx-text--muted { color: darken($color-font, 70%);}
+.crx-text--muted { color: darken($color-font, 70%); }
 .crx-text--info { color: $COLOR-BLUE; }
 .crx-text--success { color: $COLOR-GREEN; }
 .crx-text--warning { color: $COLOR-YELLOW; }

@@ -41,9 +41,10 @@ h6 { font-size: 1rem; }
 
 // Code and Keyboard
 
-code {
+code:not(.hljs) {
 
-  color: $COLOR-GREEN;
+  color: #629755;
+  background-color: darken(#629755, 35%);
 
 }
 
@@ -53,6 +54,6 @@ kbd {
   padding: .2em .4em;
   font-size: 88%;
 
-  @include crxBorderRadius(4px);
+  @include crxBorderRadius();
   
 }

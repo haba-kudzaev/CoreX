@@ -77,7 +77,8 @@ header {
 
 footer {
 
-  color: darken($color-font, 70%);;
+  background: darken($color-surface, 2%);
+  color: darken($color-font, 70%);
   padding: .8em 2.2em;
   margin-top: 1em;
 
@@ -85,4 +86,6 @@ footer {
     text-align: center;
   }
   
+  @include crxBoxShadow(inset 0 .15em 1em -0.2em rgba(0 0 0 / .4));
+
 }

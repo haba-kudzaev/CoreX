@@ -12,7 +12,7 @@ $color-surface: #121212;
 
 $color_divider: lighten($color-surface, 10%);
 
-$scrollbar: lighten($color-surface, 10%) !default;
+$scrollbar: $color_divider !default;
 $scrollbar-thumb: $color-accent !default;
 $scrollbar-track: $scrollbar !default;
 

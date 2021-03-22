@@ -13,3 +13,51 @@
   &_info { border-left-color: $COLOR_BLUE; }
 
 }
+
+.crx-alert-layout {
+
+  border: 3px solid $color_divider;
+  padding: 1.2em;
+  padding-bottom: 0;
+
+  h4 { margin-top: 0; }
+
+  @include crxBorderRadius();
+
+  &_danger {
+
+    border-color: $COLOR_RED;
+
+    h4 { color: $COLOR_RED; }
+    p { color: darken($COLOR_RED, .5);}
+
+  }
+
+  &_warning {
+    
+    border-color: $COLOR_YELLOW; 
+
+    h4 { color: $COLOR_YELLOW; }
+    p { color: darken($COLOR_YELLOW, .5);}
+
+  }
+
+  &_success {
+
+    border-color: $COLOR_GREEN;
+
+    h4 { color: $COLOR_GREEN; }
+    p { color: darken($COLOR_GREEN, .5);}
+
+  }
+
+  &_info {
+    
+    border-color: $COLOR_BLUE; 
+
+    h4 { color: $COLOR_BLUE; }
+    p { color: darken($COLOR_BLUE, .5);}
+
+  }
+
+}

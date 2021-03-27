@@ -24,40 +24,9 @@
 
   @include crxBorderRadius();
 
-  &_danger {
-
-    border-color: $COLOR_RED;
-
-    h4 { color: $COLOR_RED; }
-    p { color: darken($COLOR_RED, .5);}
-
-  }
-
-  &_warning {
-    
-    border-color: $COLOR_YELLOW; 
-
-    h4 { color: $COLOR_YELLOW; }
-    p { color: darken($COLOR_YELLOW, .5);}
-
-  }
-
-  &_success {
-
-    border-color: $COLOR_GREEN;
-
-    h4 { color: $COLOR_GREEN; }
-    p { color: darken($COLOR_GREEN, .5);}
-
-  }
-
-  &_info {
-    
-    border-color: $COLOR_BLUE; 
-
-    h4 { color: $COLOR_BLUE; }
-    p { color: darken($COLOR_BLUE, .5);}
-
-  }
+  &_danger h4 { color: $COLOR_RED; }
+  &_warning h4 { color: $COLOR_YELLOW; }
+  &_success h4 { color: $COLOR_GREEN; }
+  &_info h4 { color: $COLOR_BLUE; }
 
 }
